@@ -1,0 +1,23 @@
+{
+  "name": "gv-pride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elykkyle/gv-pride.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elykkyle/gv-pride/issues"
+  },
+  "homepage": "https://github.com/elykkyle/gv-pride#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
