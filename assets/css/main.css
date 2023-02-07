@@ -2663,22 +2663,22 @@ body.is-touch #banner {
 /* Footer */
 #footer {
   padding: 8em 0 6em 0;
-  background-color: #1a1c1b;
-  color: #cdcece;
+  background-color: #ffd700;
+  color: #000000;
 }
 #footer h2,
 #footer h3,
 #footer h4,
 #footer h5,
 #footer h6 {
-  color: #ffffff;
+  color: #000000;
 }
 #footer a:not(.button) {
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #cdcece;
+  color: #323232;
   text-decoration: none;
 }
 #footer a:not(.button):active,
@@ -2686,14 +2686,14 @@ body.is-touch #banner {
   color: #ffffff;
 }
 #footer .button {
-  color: #ffffff !important;
+  color: #4f4f4f !important;
   border-color: rgba(255, 255, 255, 0.5);
 }
 #footer .icon {
-  color: #afb1b0;
+  color: #323232;
 }
 #footer .copyright {
-  color: #cdcece;
+  color: #5f5f5f;
   font-size: 0.9em;
   margin: 3em 0 0 0;
   padding: 0;
