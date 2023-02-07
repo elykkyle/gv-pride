@@ -433,7 +433,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -642,6 +642,18 @@
 		}
 		&.style4 {
 			color: _palette(accent4, bg);
+		}
+		&.platinum {
+			color: _palette(sponsorIcons, platinum);
+		}
+		&.gold {
+			color: _palette(sponsorIcons, gold);
+		}
+		&.silver {
+			color: _palette(sponsorIcons, silver);
+		}
+		&.bronze {
+			color: _palette(sponsorIcons, bronze);
 		}
 	}
 
@@ -896,7 +908,7 @@
 			display: block;
 		}
 
-		li {
+		>  li {
 			@include padding(6em, 7em);
 			border-top: solid 1px _palette(border);
 			display: block;
@@ -906,6 +918,25 @@
 			&:nth-child(odd) {
 				border-right: solid 1px _palette(border);
 			}
+		}
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 10px
+	}
+	.grid-item{
+		grid-column: 1 / 2;
+  	grid-row: 1 / 2;
+	}
+
+	ul.sponsor-benefits {
+		list-style: disc;
+
+		> li {
+			text-align: start;
 		}
 	}
 
@@ -1462,7 +1493,7 @@
 	#banner {
 		@include padding(15em, 0, (1em, 0, 0, 0));
 		background-attachment: scroll, fixed;
-		background-image: url('images/overlay.png'), url('../../images/banner.jpg');
+		background-image: url('images/overlay.png'), url('../../images/Rainbow_flag_breeze-cropped2.jpg');
 		background-position: center center;
 		background-size: cover;
 		color: _palette(accent5, fg-bold);
