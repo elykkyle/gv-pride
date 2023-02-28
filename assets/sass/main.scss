@@ -921,17 +921,6 @@
 		}
 	}
 
-	.grid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(2, 1fr);
-		gap: 10px
-	}
-	.grid-item{
-		grid-column: 1 / 2;
-  	grid-row: 1 / 2;
-	}
-
 	ul.sponsor-benefits {
 		list-style: disc;
 
@@ -1214,6 +1203,54 @@
 				background-color: darken(_palette(accent1, bg), 5);
 			}
 		}
+		&.btn-red {
+			background-color: _palette(accent1, bg);
+			color: _palette(accent1, fg-bold) !important;
+
+			&:hover {
+				background-color: lighten(_palette(accent1, bg), 5);
+			}
+
+			&:active {
+				background-color: darken(_palette(accent1, bg), 5);
+			}
+		}
+		&.btn-green {
+			background-color: _palette(accent2, bg);
+			color: _palette(accent2, fg-bold) !important;
+
+			&:hover {
+				background-color: lighten(_palette(accent2, bg), 5);
+			}
+
+			&:active {
+				background-color: darken(_palette(accent2, bg), 5);
+			}
+		}
+		&.btn-blue {
+			background-color: _palette(accent3, bg);
+			color: _palette(accent3, fg-bold) !important;
+
+			&:hover {
+				background-color: lighten(_palette(accent3, bg), 5);
+			}
+
+			&:active {
+				background-color: darken(_palette(accent3, bg), 5);
+			}
+		}
+		&.btn-purple {
+			background-color: _palette(accent4, bg);
+			color: _palette(accent4, fg-bold) !important;
+
+			&:hover {
+				background-color: lighten(_palette(accent4, bg), 5);
+			}
+
+			&:active {
+				background-color: darken(_palette(accent4, bg), 5);
+			}
+		}
 
 		&.disabled,
 		&:disabled {
@@ -1303,7 +1340,7 @@
 		box-shadow: 0px 0.0375em 0.125em 0px rgba(0,0,0,0.05);
 		color: _palette(fg-bold);
 		cursor: default;
-		height: 4.5em;
+		height: 5em;
 		left: 0;
 		line-height: 4.4em;
 		position: fixed;
@@ -1331,6 +1368,16 @@
 				font-size: 1.25em;
 			}
 		}
+		#logo {
+			height: inherit;
+			img {
+				position: absolute;
+				left: 1.25em;
+				max-width: 120px;
+				margin-top: 0.5em;
+			}
+		}
+
 
 		nav {
 			height: inherit;
@@ -1514,6 +1561,15 @@
 			margin: 0 0 0.65em 0;
 			padding: 0 0 0.65em;
 		}
+		h3 {
+			color: _palette(accent5, fg-bold);
+			display: inline-block;
+			font-size: 2em;
+			font-weight: _font(weight-heading);
+			line-height: 1.35;
+			margin: 0 1.5em 0.65em 0;
+			padding: 0 0 0.65em;
+		}
 
 		p {
 			font-size: 1.65em;
@@ -1531,41 +1587,41 @@
 
 	#footer {
 		@include padding(8em, 0);
-		background-color: darken(_palette(accent5, bg), 12);
-		color: _palette(accent5, fg);
+		background-color: _palette(accent7, bg);
+		color: _palette(accent7, fg-light);
 
 		h2, h3, h4, h5, h6 {
-			color: _palette(accent5, fg-bold);
+			color: _palette(accent7, fg-bold);
 		}
 
 		a:not(.button) {
 			@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
-			color: _palette(accent5, fg);
+			color: _palette(accent7, fg);
 			text-decoration: none;
 
 			&:active, &:hover {
-				color: _palette(accent5, fg-bold);
+				color: _palette(accent7, fg-bold);
 			}
 		}
 
 		.button {
-			color: _palette(accent5, fg-bold) !important;
-			border-color: _palette(accent5, border2);
+			color: _palette(accent7, fg-bold) !important;
+			border-color: _palette(accent7, border2);
 		}
 
 		.icon {
-			color: _palette(accent5, fg-light);
+			color: _palette(accent7, fg-light);
 		}
 
 		.copyright {
-			color: _palette(accent5, fg);
+			color: _palette(accent7, fg);
 			font-size: 0.9em;
 			margin: (_size(element-margin) * 1.5) 0 0 0;
 			padding: 0;
 			text-align: center;
 
 			li {
-				border-left: solid 1px _palette(accent5, border);
+				border-left: solid 1px _palette(accent7, border);
 				display: inline-block;
 				list-style: none;
 				margin-left: 1.5em;
@@ -1807,6 +1863,9 @@
 					a {
 						color: inherit;
 						text-decoration: none;
+					}
+					img {
+						max-height: 44px;
 					}
 				}
 			}
