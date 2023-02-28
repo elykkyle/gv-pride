@@ -1406,6 +1406,9 @@
 						&:hover {
 							color: _palette(fg-bold);
 						}
+						&.active {
+							text-decoration: underline !important;
+						}
 					}
 
 					&:first-child {

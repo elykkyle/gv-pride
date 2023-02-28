@@ -2469,6 +2469,9 @@ body.landing {
 #header nav > ul > li a:hover {
   color: #484b49;
 }
+#header nav > ul > li a.active {
+  text-decoration: underline !important;
+}
 #header nav > ul > li:first-child {
   margin-left: 0;
 }

@@ -1,0 +1,781 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Gv-pride - v1.0.0</title><link rel="stylesheet" href="assets/css/main.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="Gv-pride - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="Release the docs!"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title"><a href="https://github.com/elykkyle/gv-pride#readme">Gv-pride - v1.0.0</a></h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="undefined"><a href="#undefined">General</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-variable"><a href="#undefined-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="breakpoints" data-type="variable"><a href="#undefined-variable-breakpoints">breakpoints</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="vendor-prefixes" data-type="variable"><a href="#undefined-variable-vendor-prefixes">vendor-prefixes</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="vendor-properties" data-type="variable"><a href="#undefined-variable-vendor-properties">vendor-properties</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="vendor-values" data-type="variable"><a href="#undefined-variable-vendor-values">vendor-values</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-mixin"><a href="#undefined-mixin">mixins</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="breakpoints" data-type="mixin"><a href="#undefined-mixin-breakpoints">breakpoints</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="orientation" data-type="mixin"><a href="#undefined-mixin-orientation">orientation</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="breakpoint" data-type="mixin"><a href="#undefined-mixin-breakpoint">breakpoint</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="html-grid" data-type="mixin"><a href="#undefined-mixin-html-grid">html-grid</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="icon" data-type="mixin"><a href="#undefined-mixin-icon">icon</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="padding" data-type="mixin"><a href="#undefined-mixin-padding">padding</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="keyframes" data-type="mixin"><a href="#undefined-mixin-keyframes">keyframes</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="vendor" data-type="mixin"><a href="#undefined-mixin-vendor">vendor</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-function"><a href="#undefined-function">functions</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="remove-nth" data-type="function"><a href="#undefined-function-remove-nth">remove-nth</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="val" data-type="function"><a href="#undefined-function-val">val</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="_duration" data-type="function"><a href="#undefined-function-_duration">_duration</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="_font" data-type="function"><a href="#undefined-function-_font">_font</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="_misc" data-type="function"><a href="#undefined-function-_misc">_misc</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="_palette" data-type="function"><a href="#undefined-function-_palette">_palette</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="_size" data-type="function"><a href="#undefined-function-_size">_size</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="svg-url" data-type="function"><a href="#undefined-function-svg-url">svg-url</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="remove-nth" data-type="function"><a href="#undefined-function-remove-nth">remove-nth</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="str-replace" data-type="function"><a href="#undefined-function-str-replace">str-replace</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="str-replace-all" data-type="function"><a href="#undefined-function-str-replace-all">str-replace-all</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="undefined"><div class="container">General</div></h1><section class="main__sub-section" id="undefined-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="undefined-variable-breakpoints"><h3 class="item__heading"><a class="item__name" href="#variable-breakpoints">breakpoints</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$breakpoints: () !global;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Breakpoints. @var {list}</p></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-breakpoints"><code>breakpoints</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-breakpoint"><code>breakpoint</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-breakpoint"><code>breakpoint</code></a></li></ul></section><section class="main__item container item" id="undefined-variable-vendor-prefixes"><h3 class="item__heading"><a class="item__name" href="#variable-vendor-prefixes">vendor-prefixes</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$vendor-prefixes: (
+		&#39;-moz-&#39;,
+		&#39;-webkit-&#39;,
+		&#39;-ms-&#39;,
+		&#39;&#39;
+	);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Vendor prefixes. @var {list}</p></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-vendor"><code>vendor</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-vendor"><code>vendor</code></a></li></ul></section><section class="main__item container item" id="undefined-variable-vendor-properties"><h3 class="item__heading"><a class="item__name" href="#variable-vendor-properties">vendor-properties</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$vendor-properties: (
+
+		// Animation.
+			&#39;animation&#39;,
+			&#39;animation-delay&#39;,
+			&#39;animation-direction&#39;,
+			&#39;animation-duration&#39;,
+			&#39;animation-fill-mode&#39;,
+			&#39;animation-iteration-count&#39;,
+			&#39;animation-name&#39;,
+			&#39;animation-play-state&#39;,
+			&#39;animation-timing-function&#39;,
+
+		// Appearance.
+			&#39;appearance&#39;,
+
+		// Backdrop filter.
+			&#39;backdrop-filter&#39;,
+
+		// Background image options.
+			&#39;background-clip&#39;,
+			&#39;background-origin&#39;,
+			&#39;background-size&#39;,
+
+		// Box sizing.
+			&#39;box-sizing&#39;,
+
+		// Clip path.
+			&#39;clip-path&#39;,
+
+		// Filter effects.
+			&#39;filter&#39;,
+
+		// Flexbox.
+			&#39;align-content&#39;,
+			&#39;align-items&#39;,
+			&#39;align-self&#39;,
+			&#39;flex&#39;,
+			&#39;flex-basis&#39;,
+			&#39;flex-direction&#39;,
+			&#39;flex-flow&#39;,
+			&#39;flex-grow&#39;,
+			&#39;flex-shrink&#39;,
+			&#39;flex-wrap&#39;,
+			&#39;justify-content&#39;,
+			&#39;order&#39;,
+
+		// Font feature.
+			&#39;font-feature-settings&#39;,
+			&#39;font-language-override&#39;,
+			&#39;font-variant-ligatures&#39;,
+
+		// Font kerning.
+			&#39;font-kerning&#39;,
+
+		// Fragmented borders and backgrounds.
+			&#39;box-decoration-break&#39;,
+
+		// Grid layout.
+			&#39;grid-column&#39;,
+			&#39;grid-column-align&#39;,
+			&#39;grid-column-end&#39;,
+			&#39;grid-column-start&#39;,
+			&#39;grid-row&#39;,
+			&#39;grid-row-align&#39;,
+			&#39;grid-row-end&#39;,
+			&#39;grid-row-start&#39;,
+			&#39;grid-template-columns&#39;,
+			&#39;grid-template-rows&#39;,
+
+		// Hyphens.
+			&#39;hyphens&#39;,
+			&#39;word-break&#39;,
+
+		// Masks.
+			&#39;mask&#39;,
+			&#39;mask-border&#39;,
+			&#39;mask-border-outset&#39;,
+			&#39;mask-border-repeat&#39;,
+			&#39;mask-border-slice&#39;,
+			&#39;mask-border-source&#39;,
+			&#39;mask-border-width&#39;,
+			&#39;mask-clip&#39;,
+			&#39;mask-composite&#39;,
+			&#39;mask-image&#39;,
+			&#39;mask-origin&#39;,
+			&#39;mask-position&#39;,
+			&#39;mask-repeat&#39;,
+			&#39;mask-size&#39;,
+
+		// Multicolumn.
+			&#39;break-after&#39;,
+			&#39;break-before&#39;,
+			&#39;break-inside&#39;,
+			&#39;column-count&#39;,
+			&#39;column-fill&#39;,
+			&#39;column-gap&#39;,
+			&#39;column-rule&#39;,
+			&#39;column-rule-color&#39;,
+			&#39;column-rule-style&#39;,
+			&#39;column-rule-width&#39;,
+			&#39;column-span&#39;,
+			&#39;column-width&#39;,
+			&#39;columns&#39;,
+
+		// Object fit.
+			&#39;object-fit&#39;,
+			&#39;object-position&#39;,
+
+		// Regions.
+			&#39;flow-from&#39;,
+			&#39;flow-into&#39;,
+			&#39;region-fragment&#39;,
+
+		// Scroll snap points.
+			&#39;scroll-snap-coordinate&#39;,
+			&#39;scroll-snap-destination&#39;,
+			&#39;scroll-snap-points-x&#39;,
+			&#39;scroll-snap-points-y&#39;,
+			&#39;scroll-snap-type&#39;,
+
+		// Shapes.
+			&#39;shape-image-threshold&#39;,
+			&#39;shape-margin&#39;,
+			&#39;shape-outside&#39;,
+
+		// Tab size.
+			&#39;tab-size&#39;,
+
+		// Text align last.
+			&#39;text-align-last&#39;,
+
+		// Text decoration.
+			&#39;text-decoration-color&#39;,
+			&#39;text-decoration-line&#39;,
+			&#39;text-decoration-skip&#39;,
+			&#39;text-decoration-style&#39;,
+
+		// Text emphasis.
+			&#39;text-emphasis&#39;,
+			&#39;text-emphasis-color&#39;,
+			&#39;text-emphasis-position&#39;,
+			&#39;text-emphasis-style&#39;,
+
+		// Text size adjust.
+			&#39;text-size-adjust&#39;,
+
+		// Text spacing.
+			&#39;text-spacing&#39;,
+
+		// Transform.
+			&#39;transform&#39;,
+			&#39;transform-origin&#39;,
+
+		// Transform 3D.
+			&#39;backface-visibility&#39;,
+			&#39;perspective&#39;,
+			&#39;perspective-origin&#39;,
+			&#39;transform-style&#39;,
+
+		// Transition.
+			&#39;transition&#39;,
+			&#39;transition-delay&#39;,
+			&#39;transition-duration&#39;,
+			&#39;transition-property&#39;,
+			&#39;transition-timing-function&#39;,
+
+		// Unicode bidi.
+			&#39;unicode-bidi&#39;,
+
+		// User select.
+			&#39;user-select&#39;,
+
+		// Writing mode.
+			&#39;writing-mode&#39;,
+
+	);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Properties that should be vendorized. Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org @var {list}</p></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-vendor"><code>vendor</code></a></li></ul></section><section class="main__item container item" id="undefined-variable-vendor-values"><h3 class="item__heading"><a class="item__name" href="#variable-vendor-values">vendor-values</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$vendor-values: (
+
+		// Cross fade.
+			&#39;cross-fade&#39;,
+
+		// Element function.
+			&#39;element&#39;,
+
+		// Filter function.
+			&#39;filter&#39;,
+
+		// Flexbox.
+			&#39;flex&#39;,
+			&#39;inline-flex&#39;,
+
+		// Grab cursors.
+			&#39;grab&#39;,
+			&#39;grabbing&#39;,
+
+		// Gradients.
+			&#39;linear-gradient&#39;,
+			&#39;repeating-linear-gradient&#39;,
+			&#39;radial-gradient&#39;,
+			&#39;repeating-radial-gradient&#39;,
+
+		// Grid layout.
+			&#39;grid&#39;,
+			&#39;inline-grid&#39;,
+
+		// Image set.
+			&#39;image-set&#39;,
+
+		// Intrinsic width.
+			&#39;max-content&#39;,
+			&#39;min-content&#39;,
+			&#39;fit-content&#39;,
+			&#39;fill&#39;,
+			&#39;fill-available&#39;,
+			&#39;stretch&#39;,
+
+		// Sticky position.
+			&#39;sticky&#39;,
+
+		// Transform.
+			&#39;transform&#39;,
+
+		// Zoom cursors.
+			&#39;zoom-in&#39;,
+			&#39;zoom-out&#39;,
+
+	);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Values that should be vendorized. Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org @var {list}</p></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-vendor"><code>vendor</code></a></li></ul></section></section><section class="main__sub-section" id="undefined-mixin"><h2 class="main__heading--secondary"><div class="container">mixins</div></h2><section class="main__item container item" id="undefined-mixin-breakpoints"><h3 class="item__heading"><a class="item__name" href="#mixin-breakpoints">breakpoints</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin breakpoints() { 
+		$breakpoints: $x !global;
+	 }" data-collapsed="@mixin breakpoints() { ... }"><code>@mixin breakpoints() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Sets breakpoints. @param {map} $x Breakpoints.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#undefined-variable-breakpoints"><code>breakpoints</code></a></li></ul></section><section class="main__item container item" id="undefined-mixin-orientation"><h3 class="item__heading"><a class="item__name" href="#mixin-orientation">orientation</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin orientation() { 
+		@media screen and (orientation: #{$orientation}) {
+			@content;
+		}
+	 }" data-collapsed="@mixin orientation() { ... }"><code>@mixin orientation() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Wraps @content in a @media block targeting a specific orientation. @param {string} $orientation Orientation.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-mixin-breakpoint"><h3 class="item__heading"><a class="item__name" href="#mixin-breakpoint">breakpoint</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin breakpoint() { 
+
+		$breakpoint: null;
+		$op: null;
+		$media: null;
+
+		// Determine operator, breakpoint.
+
+			// Greater than or equal.
+				@if (str-slice($query, 0, 2) == &#39;&gt;=&#39;) {
+
+					$op: &#39;gte&#39;;
+					$breakpoint: str-slice($query, 3);
+
+				}
+
+			// Less than or equal.
+				@else if (str-slice($query, 0, 2) == &#39;&lt;=&#39;) {
+
+					$op: &#39;lte&#39;;
+					$breakpoint: str-slice($query, 3);
+
+				}
+
+			// Greater than.
+				@else if (str-slice($query, 0, 1) == &#39;&gt;&#39;) {
+
+					$op: &#39;gt&#39;;
+					$breakpoint: str-slice($query, 2);
+
+				}
+
+			// Less than.
+				@else if (str-slice($query, 0, 1) == &#39;&lt;&#39;) {
+
+					$op: &#39;lt&#39;;
+					$breakpoint: str-slice($query, 2);
+
+				}
+
+			// Not.
+				@else if (str-slice($query, 0, 1) == &#39;!&#39;) {
+
+					$op: &#39;not&#39;;
+					$breakpoint: str-slice($query, 2);
+
+				}
+
+			// Equal.
+				@else {
+
+					$op: &#39;eq&#39;;
+					$breakpoint: $query;
+
+				}
+
+		// Build media.
+			@if ($breakpoint and map-has-key($breakpoints, $breakpoint)) {
+
+				$a: map-get($breakpoints, $breakpoint);
+
+				// Range.
+					@if (type-of($a) == &#39;list&#39;) {
+
+						$x: nth($a, 1);
+						$y: nth($a, 2);
+
+						// Max only.
+							@if ($x == null) {
+
+								// Greater than or equal (&gt;= 0 / anything)
+									@if ($op == &#39;gte&#39;) {
+										$media: &#39;screen&#39;;
+									}
+
+								// Less than or equal (&lt;= y)
+									@else if ($op == &#39;lte&#39;) {
+										$media: &#39;screen and (max-width: &#39; + $y + &#39;)&#39;;
+									}
+
+								// Greater than (&gt; y)
+									@else if ($op == &#39;gt&#39;) {
+										$media: &#39;screen and (min-width: &#39; + ($y + 1) + &#39;)&#39;;
+									}
+
+								// Less than (&lt; 0 / invalid)
+									@else if ($op == &#39;lt&#39;) {
+										$media: &#39;screen and (max-width: -1px)&#39;;
+									}
+
+								// Not (&gt; y)
+									@else if ($op == &#39;not&#39;) {
+										$media: &#39;screen and (min-width: &#39; + ($y + 1) + &#39;)&#39;;
+									}
+
+								// Equal (&lt;= y)
+									@else {
+										$media: &#39;screen and (max-width: &#39; + $y + &#39;)&#39;;
+									}
+
+							}
+
+						// Min only.
+							@else if ($y == null) {
+
+								// Greater than or equal (&gt;= x)
+									@if ($op == &#39;gte&#39;) {
+										$media: &#39;screen and (min-width: &#39; + $x + &#39;)&#39;;
+									}
+
+								// Less than or equal (&lt;= inf / anything)
+									@else if ($op == &#39;lte&#39;) {
+										$media: &#39;screen&#39;;
+									}
+
+								// Greater than (&gt; inf / invalid)
+									@else if ($op == &#39;gt&#39;) {
+										$media: &#39;screen and (max-width: -1px)&#39;;
+									}
+
+								// Less than (&lt; x)
+									@else if ($op == &#39;lt&#39;) {
+										$media: &#39;screen and (max-width: &#39; + ($x - 1) + &#39;)&#39;;
+									}
+
+								// Not (&lt; x)
+									@else if ($op == &#39;not&#39;) {
+										$media: &#39;screen and (max-width: &#39; + ($x - 1) + &#39;)&#39;;
+									}
+
+								// Equal (&gt;= x)
+									@else {
+										$media: &#39;screen and (min-width: &#39; + $x + &#39;)&#39;;
+									}
+
+							}
+
+						// Min and max.
+							@else {
+
+								// Greater than or equal (&gt;= x)
+									@if ($op == &#39;gte&#39;) {
+										$media: &#39;screen and (min-width: &#39; + $x + &#39;)&#39;;
+									}
+
+								// Less than or equal (&lt;= y)
+									@else if ($op == &#39;lte&#39;) {
+										$media: &#39;screen and (max-width: &#39; + $y + &#39;)&#39;;
+									}
+
+								// Greater than (&gt; y)
+									@else if ($op == &#39;gt&#39;) {
+										$media: &#39;screen and (min-width: &#39; + ($y + 1) + &#39;)&#39;;
+									}
+
+								// Less than (&lt; x)
+									@else if ($op == &#39;lt&#39;) {
+										$media: &#39;screen and (max-width: &#39; + ($x - 1) + &#39;)&#39;;
+									}
+
+								// Not (&lt; x and &gt; y)
+									@else if ($op == &#39;not&#39;) {
+										$media: &#39;screen and (max-width: &#39; + ($x - 1) + &#39;), screen and (min-width: &#39; + ($y + 1) + &#39;)&#39;;
+									}
+
+								// Equal (&gt;= x and &lt;= y)
+									@else {
+										$media: &#39;screen and (min-width: &#39; + $x + &#39;) and (max-width: &#39; + $y + &#39;)&#39;;
+									}
+
+							}
+
+					}
+
+				// String.
+					@else {
+
+						// Missing a media type? Prefix with &quot;screen&quot;.
+							@if (str-slice($a, 0, 1) == &#39;(&#39;) {
+								$media: &#39;screen and &#39; + $a;
+							}
+
+						// Otherwise, use as-is.
+							@else {
+								$media: $a;
+							}
+
+					}
+
+			}
+
+		// Output.
+	        @media #{$media} {
+				@content;
+			}
+
+	 }" data-collapsed="@mixin breakpoint() { ... }"><code>@mixin breakpoint() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Wraps @content in a @media block using a given query. @param {string} $query Query.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#undefined-variable-breakpoints"><code>breakpoints</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#undefined-variable-breakpoints"><code>breakpoints</code></a></li></ul></section><section class="main__item container item" id="undefined-mixin-html-grid"><h3 class="item__heading"><a class="item__name" href="#mixin-html-grid">html-grid</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin html-grid() { 
+
+		// Initialize.
+			$cols: 12;
+			$multipliers: 0, 0.25, 0.5, 1, 1.50, 2.00;
+			$unit: 100% / $cols;
+
+			// Suffixes.
+				$suffixes: null;
+
+				@if (type-of($suffix) == &#39;list&#39;) {
+					$suffixes: $suffix;
+				}
+				@else {
+					$suffixes: ($suffix);
+				}
+
+			// Gutters.
+				$guttersCols: null;
+				$guttersRows: null;
+
+				@if (type-of($gutters) == &#39;list&#39;) {
+
+					$guttersCols: nth($gutters, 1);
+					$guttersRows: nth($gutters, 2);
+
+				}
+				@else {
+
+					$guttersCols: $gutters;
+					$guttersRows: 0;
+
+				}
+
+		// Row.
+			display: flex;
+			flex-wrap: wrap;
+			box-sizing: border-box;
+			align-items: stretch;
+
+			// Columns.
+				&gt; * {
+					box-sizing: border-box;
+				}
+
+			// Gutters.
+				&amp;.gtr-uniform {
+					&gt; * {
+						&gt; :last-child {
+							margin-bottom: 0;
+						}
+					}
+				}
+
+			// Alignment.
+				&amp;.aln-left {
+					justify-content: flex-start;
+				}
+
+				&amp;.aln-center {
+					justify-content: center;
+				}
+
+				&amp;.aln-right {
+					justify-content: flex-end;
+				}
+
+				&amp;.aln-top {
+					align-items: flex-start;
+				}
+
+				&amp;.aln-middle {
+					align-items: center;
+				}
+
+				&amp;.aln-bottom {
+					align-items: flex-end;
+				}
+
+		// Step through suffixes.
+			@each $suffix in $suffixes {
+
+				// Suffix.
+					@if ($suffix != &#39;&#39;) {
+						$suffix: &#39;-&#39; + $suffix;
+					}
+					@else {
+						$suffix: &#39;&#39;;
+					}
+
+				// Row.
+
+					// Important.
+						&gt; .imp#{$suffix} {
+							order: -1;
+						}
+
+					// Columns, offsets.
+						@for $i from 1 through $cols {
+							&gt; .col-#{$i}#{$suffix} {
+								width: $unit * $i;
+							}
+
+							&gt; .off-#{$i}#{$suffix} {
+								margin-left: $unit * $i;
+							}
+						}
+
+					// Step through multipliers.
+						@each $multiplier in $multipliers {
+
+							// Gutters.
+								$class: null;
+
+								@if ($multiplier != 1) {
+									$class: &#39;.gtr-&#39; + ($multiplier * 100);
+								}
+
+								&amp;#{$class} {
+									margin-top: ($guttersRows * $multiplier * -1);
+									margin-left: ($guttersCols * $multiplier * -1);
+
+									&gt; * {
+										padding: ($guttersRows * $multiplier) 0 0 ($guttersCols * $multiplier);
+									}
+
+									// Uniform.
+										&amp;.gtr-uniform {
+											margin-top: $guttersCols * $multiplier * -1;
+
+											&gt; * {
+												padding-top: $guttersCols * $multiplier;
+											}
+										}
+
+								}
+
+						}
+
+			}
+
+	 }" data-collapsed="@mixin html-grid() { ... }"><code>@mixin html-grid() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Initializes the current element as an HTML grid. @param {mixed} $gutters Gutters (either a single number to set both column/row gutters, or a list to set them individually). @param {mixed} $suffix Column class suffix (optional; either a single suffix or a list).</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-mixin-icon"><h3 class="item__heading"><a class="item__name" href="#mixin-icon">icon</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin icon($content, $category, $where) { 
+
+	text-decoration: none;
+
+	&amp;:#{$where} {
+
+		@if $content {
+			content: $content;
+		}
+
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+		text-transform: none !important;
+
+		@if ($category == brands) {
+			font-family: &#39;Font Awesome 5 Brands&#39;;
+		}
+		@else if ($category == solid) {
+			font-family: &#39;Font Awesome 5 Free&#39;;
+			font-weight: 900;
+		}
+		@else {
+			font-family: &#39;Font Awesome 5 Free&#39;;
+			font-weight: 400;
+		}
+
+	}
+
+ }" data-collapsed="@mixin icon($content, $category, $where) { ... }"><code>@mixin icon($content, $category, $where) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Makes an element&#39;s :before pseudoelement a FontAwesome icon.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$content</code></th><td data-label="desc"><p>Optional content value to use.</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$category</code></th><td data-label="desc"><p>Optional category to use.</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$where</code></th><td data-label="desc"><p>Optional pseudoelement to target (before or after).</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table></section><section class="main__item container item" id="undefined-mixin-padding"><h3 class="item__heading"><a class="item__name" href="#mixin-padding">padding</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin padding($tb, $lr, $pad, $important) { 
+
+	@if $important {
+		$important: &#39;!important&#39;;
+	}
+
+	$x: 0.1em;
+
+	@if unit(_size(element-margin)) == &#39;rem&#39; {
+		$x: 0.1rem;
+	}
+
+	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max($x, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
+
+ }" data-collapsed="@mixin padding($tb, $lr, $pad, $important) { ... }"><code>@mixin padding($tb, $lr, $pad, $important) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Applies padding to an element, taking the current element-margin value into account.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$tb</code></th><td data-label="desc"><p>Top/bottom padding.</p></td><td data-label="type"><code>Mixed</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$lr</code></th><td data-label="desc"><p>Left/right padding.</p></td><td data-label="type"><code>Mixed</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$pad</code></th><td data-label="desc"><p>Optional extra padding (in the following order top, right, bottom, left)</p></td><td data-label="type"><code>List</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$important</code></th><td data-label="desc"><p>If true, adds !important.</p></td><td data-label="type"><code>Bool</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-_size"><code>_size</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-_size"><code>_size</code></a></li></ul></section><section class="main__item container item" id="undefined-mixin-keyframes"><h3 class="item__heading"><a class="item__name" href="#mixin-keyframes">keyframes</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin keyframes() { 
+
+		@-moz-keyframes #{$name} { @content; }
+		@-webkit-keyframes #{$name} { @content; }
+		@-ms-keyframes #{$name} { @content; }
+		@keyframes #{$name} { @content; }
+
+	 }" data-collapsed="@mixin keyframes() { ... }"><code>@mixin keyframes() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Wraps @content in vendorized keyframe blocks. @param {string} $name Name.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-mixin-vendor"><h3 class="item__heading"><a class="item__name" href="#mixin-vendor">vendor</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin vendor() { 
+
+		// Determine if property should expand.
+			$expandProperty: index($vendor-properties, $property);
+
+		// Determine if value should expand (and if so, add &#39;-prefix-&#39; placeholder).
+			$expandValue: false;
+
+			@each $x in $value {
+				@each $y in $vendor-values {
+					@if $y == str-slice($x, 1, str-length($y)) {
+
+						$value: set-nth($value, index($value, $x), &#39;-prefix-&#39; + $x);
+						$expandValue: true;
+
+					}
+				}
+			}
+
+		// Expand property?
+			@if $expandProperty {
+			    @each $vendor in $vendor-prefixes {
+			        #{$vendor}#{$property}: #{str-replace-all($value, &#39;-prefix-&#39;, $vendor)};
+			    }
+			}
+
+		// Expand just the value?
+			@else if $expandValue {
+			    @each $vendor in $vendor-prefixes {
+			        #{$property}: #{str-replace-all($value, &#39;-prefix-&#39;, $vendor)};
+			    }
+			}
+
+		// Neither? Treat them as a normal declaration.
+			@else {
+		        #{$property}: #{$value};
+			}
+
+	 }" data-collapsed="@mixin vendor() { ... }"><code>@mixin vendor() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Vendorizes a declaration&#39;s property and/or value(s). @param {string} $property Property. @param {mixed} $value String/list of value(s).</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace-all"><code>str-replace-all</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace-all"><code>str-replace-all</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#undefined-variable-vendor-properties"><code>vendor-properties</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#undefined-variable-vendor-values"><code>vendor-values</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#undefined-variable-vendor-prefixes"><code>vendor-prefixes</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#undefined-variable-vendor-prefixes"><code>vendor-prefixes</code></a></li></ul></section></section><section class="main__sub-section" id="undefined-function"><h2 class="main__heading--secondary"><div class="container">functions</div></h2><section class="main__item container item" id="undefined-function-remove-nth"><h3 class="item__heading"><a class="item__name" href="#function-remove-nth">remove-nth</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function remove-nth($list, $index) { 
+
+	$result: null;
+
+	@if type-of($index) != number {
+		@warn &quot;$index: #{quote($index)} is not a number for `remove-nth`.&quot;;
+	}
+	@else if $index == 0 {
+		@warn &quot;List index 0 must be a non-zero integer for `remove-nth`.&quot;;
+	}
+	@else if abs($index) &gt; length($list) {
+		@warn &quot;List index is #{$index} but list is only #{length($list)} item long for `remove-nth`.&quot;;
+	}
+	@else {
+
+		$result: ();
+		$index: if($index &lt; 0, length($list) + $index + 1, $index);
+
+		@for $i from 1 through length($list) {
+
+			@if $i != $index {
+				$result: append($result, nth($list, $i));
+			}
+
+		}
+
+	}
+
+	@return $result;
+
+ }" data-collapsed="@function remove-nth($list, $index) { ... }"><code>@function remove-nth($list, $index) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Removes a specific item from a list.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$list</code></th><td data-label="desc"><p>List.</p></td><td data-label="type"><code>List</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$index</code></th><td data-label="desc"><p>Index.</p></td><td data-label="type"><code>Integer</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>List</code> &mdash;<p>Updated list.</p></div><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-val"><code>val</code></a></li></ul><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Hugo Giraudel</p></li></ul></section><section class="main__item container item" id="undefined-function-val"><h3 class="item__heading"><a class="item__name" href="#function-val">val</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function val($map, $keys) { 
+
+	@if nth($keys, 1) == null {
+		$keys: remove-nth($keys, 1);
+	}
+
+	@each $key in $keys {
+		$map: map-get($map, $key);
+	}
+
+	@return $map;
+
+ }" data-collapsed="@function val($map, $keys) { ... }"><code>@function val($map, $keys) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Gets a value from a map.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$map</code></th><td data-label="desc"><p>Map.</p></td><td data-label="type"><code>Map</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$keys</code></th><td data-label="desc"><p>Key(s).</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>String</code> &mdash;<p>Value.</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-remove-nth"><code>remove-nth</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-_duration"><code>_duration</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-_font"><code>_font</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-_misc"><code>_misc</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-_palette"><code>_palette</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-_size"><code>_size</code></a></li></ul><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>Hugo Giraudel</p></li></ul></section><section class="main__item container item" id="undefined-function-_duration"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-_duration">_duration</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function _duration($keys) { 
+	@return val($duration, $keys...);
+ }" data-collapsed="@function _duration($keys) { ... }"><code>@function _duration($keys) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Gets a duration value.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$keys</code></th><td data-label="desc"><p>Key(s).</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>String</code> &mdash;<p>Value.</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-val"><code>val</code></a></li></ul></section><section class="main__item container item" id="undefined-function-_font"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-_font">_font</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function _font($keys) { 
+	@return val($font, $keys...);
+ }" data-collapsed="@function _font($keys) { ... }"><code>@function _font($keys) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Gets a font value.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$keys</code></th><td data-label="desc"><p>Key(s).</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>String</code> &mdash;<p>Value.</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-val"><code>val</code></a></li></ul></section><section class="main__item container item" id="undefined-function-_misc"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-_misc">_misc</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function _misc($keys) { 
+	@return val($misc, $keys...);
+ }" data-collapsed="@function _misc($keys) { ... }"><code>@function _misc($keys) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Gets a misc value.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$keys</code></th><td data-label="desc"><p>Key(s).</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>String</code> &mdash;<p>Value.</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-val"><code>val</code></a></li></ul></section><section class="main__item container item" id="undefined-function-_palette"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-_palette">_palette</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function _palette($keys) { 
+	@return val($palette, $keys...);
+ }" data-collapsed="@function _palette($keys) { ... }"><code>@function _palette($keys) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Gets a palette value.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$keys</code></th><td data-label="desc"><p>Key(s).</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>String</code> &mdash;<p>Value.</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-val"><code>val</code></a></li></ul></section><section class="main__item container item" id="undefined-function-_size"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-_size">_size</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function _size($keys) { 
+	@return val($size, $keys...);
+ }" data-collapsed="@function _size($keys) { ... }"><code>@function _size($keys) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Gets a size value.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$keys</code></th><td data-label="desc"><p>Key(s).</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>String</code> &mdash;<p>Value.</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-val"><code>val</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-padding"><code>padding</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-padding"><code>padding</code></a></li></ul></section><section class="main__item container item" id="undefined-function-svg-url"><h3 class="item__heading"><a class="item__name" href="#function-svg-url">svg-url</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function svg-url($svg) { 
+
+	$svg: str-replace($svg, &#39;&quot;&#39;, &#39;\&#39;&#39;);
+	$svg: str-replace($svg, &#39;%&#39;, &#39;%25&#39;);
+	$svg: str-replace($svg, &#39;&lt;&#39;, &#39;%3C&#39;);
+	$svg: str-replace($svg, &#39;&gt;&#39;, &#39;%3E&#39;);
+	$svg: str-replace($svg, &#39;&amp;&#39;, &#39;%26&#39;);
+	$svg: str-replace($svg, &#39;#&#39;, &#39;%23&#39;);
+	$svg: str-replace($svg, &#39;{&#39;, &#39;%7B&#39;);
+	$svg: str-replace($svg, &#39;}&#39;, &#39;%7D&#39;);
+	$svg: str-replace($svg, &#39;;&#39;, &#39;%3B&#39;);
+
+	@return url(&quot;data:image/svg+xml;charset=utf8,#{$svg}&quot;);
+
+ }" data-collapsed="@function svg-url($svg) { ... }"><code>@function svg-url($svg) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Encodes a SVG data URL so IE doesn&#39;t choke (via codepen.io/jakob-e/pen/YXXBrp).</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$svg</code></th><td data-label="desc"><p>SVG data URL.</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>String</code> &mdash;<p>Encoded SVG data URL.</p></div><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li></ul></section><section class="main__item container item" id="undefined-function-remove-nth"><h3 class="item__heading"><a class="item__name" href="#function-remove-nth">remove-nth</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function remove-nth() { 
+
+		$result: null;
+
+		@if type-of($index) != number {
+			@warn &quot;$index: #{quote($index)} is not a number for `remove-nth`.&quot;;
+		}
+		@else if $index == 0 {
+			@warn &quot;List index 0 must be a non-zero integer for `remove-nth`.&quot;;
+		}
+		@else if abs($index) &gt; length($list) {
+			@warn &quot;List index is #{$index} but list is only #{length($list)} item long for `remove-nth`.&quot;;
+		}
+		@else {
+
+			$result: ();
+			$index: if($index &lt; 0, length($list) + $index + 1, $index);
+
+			@for $i from 1 through length($list) {
+
+				@if $i != $index {
+					$result: append($result, nth($list, $i));
+				}
+
+			}
+
+		}
+
+		@return $result;
+
+	 }" data-collapsed="@function remove-nth() { ... }"><code>@function remove-nth() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Removes a specific item from a list. @author Hugo Giraudel @param {list} $list List. @param {integer} $index Index. @return {list} Updated list.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-function-str-replace"><h3 class="item__heading"><a class="item__name" href="#function-str-replace">str-replace</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function str-replace() { 
+
+		$index: str-index($string, $search);
+
+		@if $index {
+			@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+		}
+
+		@return $string;
+
+	 }" data-collapsed="@function str-replace() { ... }"><code>@function str-replace() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Replaces a substring within another string. @author Hugo Giraudel @param {string} $string String. @param {string} $search Substring. @param {string} $replace Replacement. @return {string} Updated string.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-svg-url"><code>svg-url</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace-all"><code>str-replace-all</code></a></li></ul></section><section class="main__item container item" id="undefined-function-str-replace-all"><h3 class="item__heading"><a class="item__name" href="#function-str-replace-all">str-replace-all</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function str-replace-all() { 
+
+		@each $string in $strings {
+			$strings: set-nth($strings, index($strings, $string), str-replace($string, $search, $replace));
+		}
+
+		@return $strings;
+
+	 }" data-collapsed="@function str-replace-all() { ... }"><code>@function str-replace-all() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Replaces a substring within each string in a list. @param {list} $strings List of strings. @param {string} $search Substring. @param {string} $replace Replacement. @return {list} Updated list of strings.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-str-replace"><code>str-replace</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-vendor"><code>vendor</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-vendor"><code>vendor</code></a></li></ul></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --> <a class="project-info__name" href="https://github.com/elykkyle/gv-pride#readme">Gv-pride</a><!-- Version --> <span class="project-info__version">- v1.0.0</span><!-- License --> <span class="project-info__license">, under ISC</span></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>
