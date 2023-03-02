@@ -1,0 +1,21 @@
+// Import all of Bootstrap's CSS
+// $body-bg: #fff;
+$light: #fff;
+$blue: #223F9A;
+$red: #ED1C24;
+$yellow: #F0C900;
+$green: #008E41;
+
+$btn-border-radius: 0;
+$btn-border-radius-sm: 0;
+$btn-border-radius-lg: 0;
+
+.hero {
+  background-image: url('/dist/assets/images/overlay.png'), url('/dist/assets/images/Rainbow_flag_breeze-cropped2.jpg');
+  background-size: cover;
+}
+.sponsor {
+  max-width: 960px;
+}
+
+@import "~bootstrap/scss/bootstrap";
