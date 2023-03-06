@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="h-screen">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-GV-Pride_logo-192x192.jpg"
+      type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/a4bc35d24b.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Golden Valley Pride</title>
+  </head>
+  <body class="h-screen antialiased">
+    <!-- NAVBAR Start -->
+    <nav class="container relative mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <a href="/">
+          <img
+            src="./assets/images/cropped-GV-Pride_logo.png"
+            alt="Golden Valley Pride"
+            class="h-14"
+        /></a>
+        <div class="hidden space-x-6 md:flex">
+          <a href="#">Festival</a>
+          <a href="#">Sponsor</a>
+          <a href="#">Exhibit</a>
+        </div>
+        <a
+          href="#"
+          class="baseline hidden rounded-full bg-green-600 p-3 px-6 pt-2 font-bold text-white hover:bg-green-700 hover:transition-all md:block"
+          >Donate</a
+        >
+        <button
+          id="menu-btn"
+          class="hamburger block focus:outline-none md:hidden">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute z-10 left-6 right-6 mt-9 hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center">
+          <a href="#">Home</a>
+          <a href="#">Festival</a>
+          <a href="#">Sponsor</a>
+          <a href="#">Exhibit</a>
+          <a href="#" class="bg-green-600 p-3 px-6">Donate</a>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR End -->
+    <!-- HERO Start -->
+    <section
+      id="hero"
+      class="min-h-[50%] bg-black/40 bg-hero-background bg-cover bg-fixed bg-top bg-no-repeat bg-blend-darken md:bg-left">
+      <div class="container mx-auto flex-col items-center">
+        <h1
+          class="mx-auto pt-10 text-center font-sans text-5xl font-bold text-white drop-shadow">
+          Welcome to Golden Valley Pride!
+        </h1>
+        <h3 class="mx-auto mt-4 text-center font-sans text-2xl text-white">
+          The festival is back!
+        </h3>
+        <h3 class="mx-auto mt-2 text-center font-sans text-2xl text-white">
+          June 10th, 2023 at Brookview Park
+        </h3>
+        <h2 class="mx-auto mt-6 text-center text-3xl font-bold text-white">
+          Registration NOW OPEN for sponsors & exhibitors!
+        </h2>
+        <div
+          class="mx-auto max-w-[90%] mt-6 pb-4 flex flex-col justify-center space-y-4 font-bold md:flex-row md:space-y-0 md:space-x-4">
+          <a
+            href="/sponsor.html"
+            class="bg-green-600 p-3 px-6 text-center text-white transition ease-in-out hover:bg-green-700"
+            >Sponsor</a
+          >
+          <a
+            href="#"
+            class="bg-blue-600 p-3 px-6 text-center text-white transition ease-in-out hover:bg-blue-700"
+            >Exhibit</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- HERO End -->
+    <!-- FOOTER Start -->
+    <footer class="mt-auto mb-0 bg-pride-gold">
+      <div
+        class="container mx-auto flex flex-col-reverse justify-between space-y-8 px-6 py-10 md:flex-row md:space-y-0">
+        <!-- Logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:items-start md:space-y-0">
+          <div class="mx-auto my-6 text-center text-black md:hidden">
+            &copy; 2023 Golden Valley Pride
+          </div>
+          <!-- social links -->
+          <div class="flex-col justify-center space-x-4">
+            <div class="mb-3 block">
+              <i class="fa-solid fa-location-pin"></i
+              ><span class="font-bold"> Festival Location:</span>
+              <p>
+                Brookview Park <br />
+                200 Brookview Pkwy N <br />
+                Golden Valley, MN 55426
+              </p>
+            </div>
+            <a
+              href="https://www.facebook.com/goldenvalleypride"
+              target="_blank">
+              <i
+                class="fa-brands fa-square-facebook h-6 transition duration-300 ease-in-out hover:text-[#1877F2]"></i>
+            </a>
+            <a href="https://instagram.com/gvpridefest" target="_blank">
+              <i
+                class="fa-brands fa-instagram h-6 transition duration-300 ease-in-out hover:text-[rgb(240,37,88)]"></i>
+            </a>
+            <a href="https://twitter.com/gvpridefest" target="_blank">
+              <i
+                class="fa-brands fa-twitter transistion h-6 duration-300 ease-in-out hover:text-[#1DA1F2]"></i>
+            </a>
+          </div>
+        </div>
+        <!-- list container -->
+        <!-- <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-3 text-black">
+            <a href="#" class="hover:brightRed">Home</a>
+            <a href="#" class="hover:brightRed">Festival</a>
+            <a href="#" class="hover:brightRed">Sponsor</a>
+            <a href="#" class="hover:brightRed">Exhibit</a>
+          </div>
+        </div> -->
+        <!-- right container -->
+        <div class="flex flex-col justify-end text-end text-sm">
+          <div class="hidden text-black md:block">
+            <span class="font-bold">Fiscal Sponsor:</span> Golden Valley
+            Community Foundation
+          </div>
+          <div class="hidden text-black md:block">
+            Copyright &copy; 2023 Golden Valley Pride
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER End -->
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>
